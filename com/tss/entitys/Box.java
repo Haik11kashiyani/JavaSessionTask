@@ -1,7 +1,9 @@
 package com.tss.entitys;
 
 public class Box {
-    private double width,height,depth;
+    protected double width;
+    protected double height;
+    protected double depth;
     public Box()
     {
         width=10;
