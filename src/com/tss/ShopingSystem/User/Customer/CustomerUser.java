@@ -1,4 +1,4 @@
-package com.tss.ShopingSystem.User;
+package com.tss.ShopingSystem.User.Customer;
 
 import com.tss.ShopingSystem.DataSource.database;
 import com.tss.ShopingSystem.Product.products;
@@ -10,7 +10,7 @@ import java.util.Map;
 public class CustomerUser extends database implements Users {
     // Simple per-customer cart and order tracking
     private Map<Long, Integer> cart = new HashMap<>();
-    private double lastOrderAmount = 0.0;
+    private double lastOrderAmount = 0;
     private boolean orderPending = false;
 
     public CustomerUser() {

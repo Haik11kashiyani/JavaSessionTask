@@ -1,7 +1,7 @@
 package com.tss.ShopingSystem.services;
 
-import com.tss.ShopingSystem.Admin.AdminUser;
-import com.tss.ShopingSystem.User.CustomerUser;
+import com.tss.ShopingSystem.User.Admin.AdminUser;
+import com.tss.ShopingSystem.User.Customer.CustomerUser;
 
 import static com.tss.Validation.ValidationForAll.inputInteger;
 import static com.tss.Validation.ValidationForAll.inputString;

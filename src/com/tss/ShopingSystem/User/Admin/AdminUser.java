@@ -1,10 +1,7 @@
-package com.tss.ShopingSystem.Admin;
+package com.tss.ShopingSystem.User.Admin;
 
 import com.tss.ShopingSystem.DataSource.database;
-import com.tss.ShopingSystem.Product.products;
 import com.tss.ShopingSystem.services.Users;
-
-import java.util.Map;
 
 public class AdminUser extends database implements Users {
     public AdminUser() {
